@@ -33,7 +33,7 @@ class OfferPackage extends Simple
     public function loadXml()
     {
         if ($this->owner->offersXml) {
-            return $this->owner->offersXml->ПакетПредложений;
+            return $this->owner->offersXml->ПакетПредложений ?? $this->owner->offersXml->ИзмененияПакетаПредложений;
         }
 
         return null;

@@ -48,7 +48,7 @@ class Offer extends Simple
     public function getStockrooms()
     {
         if ($this->xml && empty($this->stockrooms)) {
-            foreach ($this->xml->Склад as $stockroom) {
+            foreach ($this->xml->Склады as $stockroom) {
                 $this->stockrooms[] = new Stockroom($this->owner, $stockroom);
             }
         }
