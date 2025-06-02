@@ -1,7 +1,7 @@
 {
-  "name": "carono/commerceml",
+  "name": "raisite74/commerceml",
   "type": "library",
-  "homepage": "https://github.com/zenwalker/php-commerceml",
+  "homepage": "https://github.com/raisite74/php-commerceml",
   "description": "Library for parsing CommerceML files",
   "keywords": [
     "commerceml",
@@ -10,14 +10,8 @@
   "license": "MIT",
   "authors": [
     {
-      "homepage": "http://zenwalker.ru",
-      "name": "Maxim Poletaev",
-      "email": "zenwalker2@gmail.com"
-    },
-    {
-      "homepage": "http://carono.ru",
-      "name": "Aleksandr Kasyanov",
-      "email": "info@carono.ru"
+      "homepage": "https://github.com/raisite74",
+      "name": "Oleg Eltsov"
     }
   ],
   "autoload": {
